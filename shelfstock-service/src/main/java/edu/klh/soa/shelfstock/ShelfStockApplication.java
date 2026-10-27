@@ -1,0 +1,1 @@
+package edu.klh.soa.shelfstock; import org.springframework.boot.*;import org.springframework.boot.autoconfigure.*;import org.springframework.cloud.client.discovery.EnableDiscoveryClient; @SpringBootApplication @EnableDiscoveryClient public class ShelfStockApplication {public static void main(String[] a){SpringApplication.run(ShelfStockApplication.class,a);}}

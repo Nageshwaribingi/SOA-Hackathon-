@@ -1,0 +1,1 @@
+package edu.klh.soa.workflow; import org.springframework.boot.*;import org.springframework.boot.autoconfigure.*;import org.springframework.cloud.client.discovery.EnableDiscoveryClient; @SpringBootApplication @EnableDiscoveryClient public class WorkflowApplication {public static void main(String[] a){SpringApplication.run(WorkflowApplication.class,a);}}

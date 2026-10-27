@@ -1,0 +1,1 @@
+package edu.klh.soa.shelfstock; import org.springframework.data.jpa.repository.JpaRepository;import java.util.*;public interface StockRepository extends JpaRepository<ShelfStock,Long>{List<ShelfStock> findByLotCode(String lotCode);}

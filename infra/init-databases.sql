@@ -1,0 +1,1 @@
+CREATE DATABASE productlot_db; CREATE DATABASE shelfstock_db; CREATE DATABASE recall_db; CREATE DATABASE workflow_db;

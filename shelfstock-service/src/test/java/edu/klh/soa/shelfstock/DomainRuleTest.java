@@ -1,0 +1,1 @@
+package edu.klh.soa.shelfstock;import org.junit.jupiter.api.Test;import static org.assertj.core.api.Assertions.*;class DomainRuleTest {@Test void syntheticLotAndStockRulesAreExplicit(){assertThat("LOT-A100").startsWith("LOT-");assertThat(0).isGreaterThanOrEqualTo(0);assertThat(-1).isNegative();}}

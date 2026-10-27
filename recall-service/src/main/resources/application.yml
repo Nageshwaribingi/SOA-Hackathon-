@@ -1,0 +1,7 @@
+server: {port: 8084}
+spring:
+ application: {name: recall-service}
+ datasource: {url: "${DB_URL:jdbc:postgresql://localhost:5433/recall_db}", username: "${DB_USER:soa}", password: "${DB_PASSWORD:soa_demo}"}
+ jpa: {hibernate: {ddl-auto: update}, open-in-view: false}
+ kafka: {bootstrap-servers: "${KAFKA_BOOTSTRAP:localhost:9092}", producer: {key-serializer: org.apache.kafka.common.serialization.StringSerializer, value-serializer: org.springframework.kafka.support.serializer.JsonSerializer, properties: {spring.json.add.type.headers: false}}}
+eureka: {client: {service-url: {defaultZone: "${EUREKA_URL:http://localhost:8761/eureka/}"}}}

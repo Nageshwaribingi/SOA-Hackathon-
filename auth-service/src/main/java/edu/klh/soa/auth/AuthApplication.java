@@ -1,0 +1,1 @@
+package edu.klh.soa.auth; import org.springframework.boot.*;import org.springframework.boot.autoconfigure.*;import org.springframework.cloud.client.discovery.EnableDiscoveryClient; @SpringBootApplication @EnableDiscoveryClient public class AuthApplication {public static void main(String[] a){SpringApplication.run(AuthApplication.class,a);}}

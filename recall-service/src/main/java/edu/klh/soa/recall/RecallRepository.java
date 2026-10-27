@@ -1,0 +1,1 @@
+package edu.klh.soa.recall;import org.springframework.data.jpa.repository.JpaRepository;public interface RecallRepository extends JpaRepository<RecallRecord,String>{}

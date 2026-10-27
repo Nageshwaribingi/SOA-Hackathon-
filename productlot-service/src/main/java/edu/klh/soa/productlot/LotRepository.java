@@ -1,0 +1,1 @@
+package edu.klh.soa.productlot; import org.springframework.data.jpa.repository.JpaRepository;import java.util.*; public interface LotRepository extends JpaRepository<ProductLot,Long>{Optional<ProductLot> findByLotCode(String lotCode);List<ProductLot> findByProductCode(String productCode);}

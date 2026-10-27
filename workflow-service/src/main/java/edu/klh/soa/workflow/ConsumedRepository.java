@@ -1,0 +1,1 @@
+package edu.klh.soa.workflow;import org.springframework.data.jpa.repository.JpaRepository;public interface ConsumedRepository extends JpaRepository<ConsumedEvent,String>{}
